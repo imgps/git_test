@@ -1,9 +1,12 @@
-//cpp program using for while conditions
+//cpp program printing number from 1-5
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main() {
-
-    cout << "Here is a comment \n";
+int main() 
+{
+    for (int i = 1; i <= 5; ++i) 
+    {
+        cout << "Hello world"<< endl;
+    }
     return 0;
 }
