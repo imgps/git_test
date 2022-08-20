@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     int num;  
-    std::cout<<"Enter a number to check grade:";    
+    cout<<"Enter a number to check grade:";    
     cin>>num;  
 
     switch (num)    //expression
