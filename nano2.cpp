@@ -1,21 +1,28 @@
-/*this is another sample cpp program
-writted in nano text editor using git bash and building and saving it and commit 
-to the git*/
-
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main() {
+void prime();
+int main(){
+    prime();
+    return 0;
+}
 
-	int a;
-	cout<<"Enter the digit: "<< endl;
-	cin>>a;
-
-	if(a>10)
-	{	
-		cout << a <<"  = is greateer than 10" << endl;
-	}else
-		{	
-			cout<< a <<"  = is lesser than 10" << endl;
-		}
-	return 0;
+void prime()
+{
+    int num, i, flag = 0;
+    cout<< "Enter a positive integer to check: ";
+    cin >> num;
+    for(i = 2; i <= num/2; ++i)
+    {
+        if (num % i ==0)
+        {
+            flag =1;
+            break;
+        }
+    }
+    if (flag ==1) {
+        cout<< num << "  is not a prime number.";
+    }else 
+    {
+        cout<< num << "  is a prime number.";
+    }
 }
