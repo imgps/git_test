@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
 
-    //Program for dividing two numbers
+    //Program for product of two numbers
     int a,b;
     float result;
 
@@ -14,7 +14,7 @@ int main() {
     cout<<"Enter the second number: \n";
     cin>>b; //input the 2nd number
 
-    result = a/b;
-    cout<<"The division of the two number is \n" << result;
+    result = a*b;
+    cout<<"The product of the two number is \n" << result;
     return 0;
 }

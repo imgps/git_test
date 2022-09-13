@@ -1,3 +1,6 @@
+/*Program edited in vim 
+ * for creating a product */
+
 #include <iostream>
 using namespace std;
 int main() {
