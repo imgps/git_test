@@ -1,8 +1,6 @@
-/* Learning structures in cpp 
-What is the this thing
-that is the that thing
-what is the other thing
-its not everything*/
+/*Creating structures and references in cpp */
+
+
 
 #include<iostream>
 using namespace std;
